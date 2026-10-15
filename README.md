@@ -1,4 +1,4 @@
-# Currency Converter
+## Currency Converter
 
 Веб-приложение для конвертации валют. Работает в браузере, без бэкенда. Курсы берутся с публичного API [frankfurter.dev](https://frankfurter.dev).
 
@@ -88,4 +88,3 @@ npx serve
 ## Лицензия
 
 MIT
-
