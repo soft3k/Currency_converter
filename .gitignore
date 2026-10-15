@@ -1,0 +1,17 @@
+# Редакторы
+.vscode/
+.idea/
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Зависимости (если появятся)
+node_modules/
+
+# Секреты
+.env
