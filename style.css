@@ -1,0 +1,90 @@
+*{box-sizing: border-box;}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(141, 253, 253);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 192, 75);
+    color: rgb(85, 56, 11);
+}
+button.valid:hover{
+    background-color: rgb(240, 159, 11);
+    color: rgb(82, 51, 5);
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+input:focus{
+    border-color:blue;
+    outline: none;
+    box-shadow: 0 0 0 1px rgb(43, 43, 226);
+}
+select{
+    border-radius: 5px;
+    border: 2px solid;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+select:focus{
+    border-color:blue;
+    outline: none;
+    box-shadow: 0 0 0 1px rgb(43, 43, 226);
+}
+.container{
+    gap: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnCont{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    
+}
+.btnCont button{
+    flex: 1;
+    width: auto;
+}
+.errorResult{
+    color: red;
+    font-size: 16px;
+    padding: 3px;
+}
+#result{
+    color: #1a2a6c;   
+    margin-top: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 30px !important;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: none;
+}
+select.error{
+    border-color:red;
+    outline: none;
+    box-shadow: 0 0 0 1px red;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}

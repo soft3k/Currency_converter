@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>AAAA</title>
+</head>
+<body>
+<div class="container">
+    <h1>Конвертор валют</h1>
+    <form id = "inputForm">
+        <div class = "sum">
+        <label>Сумма</label>
+        <input id = "inputSum" placeholder="Введите сумму">
+        </div>
+        <div class = "rov">
+        <label>Валюта до конвертации</label>
+        <select id = "rovSelect">
+        </select>
+        </div>
+        <div class = "endRov">
+        <label>Валюта после конвертации</label>
+        <select id = "endRovSelect">
+        </select>
+        <div class = "errorResult" id = "errorSum"></div>
+        </div>
+        <div class = "btnCont">
+    <button id = "swapBtn" type = "button" class = 'valid'>Поменять местами</button>
+    <button id = "submitBtn" type = "submit">Конвертировать</button>
+    </div>
+        
+    </form>
+    <div id = "result">
+    </div>
+    
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
